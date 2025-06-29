@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 0;
+}
+
+a,
+h1,
+h2,
+p {
+  font-family: "Inter", sans-serif;
+}
+
+#div-left,
+#div-right {
+  width: 50vw;
+  height: 100vh;
+}
+
+#div-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+#div-right {
+  background-color: green;
+}
+
+#logo {
+  width: 300px;
+  height: auto;
+}
+
+#divider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+#section {
+  align-self: center;
+  border-top: 1px solid grey;
+  width: 30%;
+}
+
+.sign-up {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
