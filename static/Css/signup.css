@@ -8,6 +8,7 @@ body {
 a,
 h1,
 h2,
+h3,
 p {
   font-family: "Inter", sans-serif;
 }
@@ -63,9 +64,10 @@ p {
 input {
   height: 40px;
   width: 200px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   margin-bottom: 5px;
+  padding: 7px;
   padding-left: 10px;
   font-size: 15px;
 }
@@ -73,4 +75,23 @@ input {
 input:focus,
 input:hover {
   border: none;
+}
+
+#other-signup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  color: skyblue;
 }
