@@ -84,14 +84,17 @@ input:hover {
 }
 
 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: black;
+  background-color: grey;
   cursor: pointer;
 }
 
 a {
   cursor: pointer;
-  color: skyblue;
+  color: rgb(26, 87, 110);
 }
