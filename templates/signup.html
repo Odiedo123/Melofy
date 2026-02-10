@@ -20,16 +20,34 @@
   </head>
   <body>
     <div id="div-left">
-      <img
-        id="logo"
-        src="static/Images/Melofy-Transparent-Logo.png"
-        alt="Melofy-Logo"
-      />
+      <a href="/" style="text-decoration: none;">
+        <img
+          id="logo"
+          src="static/Images/Melofy-Transparent-Logo.png"
+          alt="Melofy-Logo"
+          href="/"
+        />
+      </a>
       <h1>Feel the rythm</h1>
       <div id="other-signup">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+        <div class="circle">
+          <img
+            src="static/Images/google.svg"
+            alt="Google"
+          />
+        </div>
+        <div class="circle">
+          <img
+            src="static/Images/instagram2.svg"
+            alt="Instagram"
+          />
+        </div>
+        <div class="circle">
+          <img
+            src="static/Images/instagram2.svg"
+            alt="Spotify-Logo"
+          />
+        </div>
       </div>
       <div id="divider">
         <div id="section"></div>
@@ -37,11 +55,23 @@
         <div id="section"></div>
       </div>
       <form class="newsletter-form"></form>
-        <input type="email" placeholder="Your.email@example.com" required />
+        <input type="email" placeholder="name@example.com" required />
         <button type="submit" class="sign-up" id="sign-up-button">Sign Up</button>
       </form>
       <h3>Already have an account? <a>Sign in</a></h3>
     </div>
-    <div id="div-right"></div>
+    <div id="div-right">
+      <script
+        src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
+        type="module"
+      ></script>
+
+      <dotlottie-wc
+        src="https://lottie.host/d8cf5438-299c-44a6-9808-f858d38ab1c5/rrn4BQaaRL.lottie"
+        style="width: 600px;height: 600px"
+        autoplay
+        loop
+      ></dotlottie-wc>
+    </div>
   </body>
 </html>

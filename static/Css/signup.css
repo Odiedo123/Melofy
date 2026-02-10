@@ -3,6 +3,7 @@ body {
   flex-direction: row;
   overflow: hidden;
   padding: 0;
+  margin: 0;
 }
 
 a,
@@ -12,6 +13,32 @@ h3,
 p {
   font-family: "Inter", sans-serif;
 }
+
+h1 {
+  color: black;
+  /*background: linear-gradient(90deg, 
+  #ff0080, 
+  #ff8c00, 
+  #40e0d0, 
+  #ff0080, 
+  #ff8c00);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: lava-flow 5s linear infinite; */
+}
+  
+/*
+@keyframes lava-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+  */
 
 #div-left,
 #div-right {
@@ -28,12 +55,15 @@ p {
 }
 
 #div-right {
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #logo {
   width: 300px;
   height: auto;
+  cursor: pointer;
 }
 
 #divider {
@@ -52,7 +82,7 @@ p {
 }
 
 .sign-up {
-  width: 130px;
+  width: 420px;
   height: 40px;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -63,11 +93,11 @@ p {
 
 input {
   height: 40px;
-  width: 200px;
+  width: 400px;
   border-radius: 10px;
   border: none;
   margin-bottom: 5px;
-  padding: 7px;
+  padding: 5px;
   padding-left: 10px;
   font-size: 15px;
 }
@@ -90,11 +120,16 @@ input:hover {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
+}
+
+.circle *{
+  width: 25px;
+  height: auto;
 }
 
 a {
   cursor: pointer;
-  color: rgb(26, 87, 110);
+  color: rgb(0, 208, 255);
 }
