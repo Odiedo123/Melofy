@@ -4,9 +4,49 @@ body{
     align-items: center;
     margin: 0;
     padding : 0;
+    overflow: hidden;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    color: white;
 }
 
 #background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    color: purple;
+    height: 100vh;
+    background-color: purple;
+}
+
+.sign-up {
+  width: 420px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(195, 2, 195);
+}
+
+input {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+input:focus,
+input:hover {
+  border: none;
 }
